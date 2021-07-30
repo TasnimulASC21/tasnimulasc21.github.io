@@ -43,16 +43,17 @@ h1 {
 .anime_list{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .anime{
     width: 33%;
     margin: 15px;
     padding: 25px;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
-    border-top: 1px solid blue;
-    border-bottom: 1px solid blue;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
     transition: border 500ms;
 }
 
@@ -64,4 +65,15 @@ h1 {
 .anime_name:hover {
     background-color: greenyellow;
     opacity: 1;
+}
+
+.anime_name {
+    color: skyblue;
+    justify-content: center;
+}
+
+.items {
+    justify-content: center;
+    margin: 5px;
+    padding: 7px;
 }
