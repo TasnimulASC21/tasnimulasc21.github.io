@@ -1,0 +1,67 @@
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color:white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+#big_div {
+    display: flex;
+    justify-content: space-around;
+    color: green;
+}
+
+#logo {
+    width: 120px;   
+}
+img {
+    width: 75%;
+}
+
+
+.items:hover{
+    background-color: green;
+    opacity: 0.5;
+}
+
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 15px;
+    padding: 25px;
+    background-color: gold;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.anime_list{
+    display: flex;
+    flex-direction: row;
+}
+
+.anime{
+    width: 33%;
+    margin: 15px;
+    padding: 25px;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    transition: border 500ms;
+}
+
+.anime:hover{
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.anime_name:hover {
+    background-color: greenyellow;
+    opacity: 1;
+}
