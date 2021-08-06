@@ -21,8 +21,8 @@ img {
 
 
 .items:hover{
-    background-color: green;
-    opacity: 0.5;
+    background-color: grey;
+    opacity: 0.7;
 }
 
 a {
@@ -40,16 +40,20 @@ h1 {
     font-weight: bold;
 }
 
+#big_content_div{
+    display: flex;
+}
+
 .anime_list{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: space-around; */
 }
 
 .anime{
     width: 33%;
-    margin: 15px;
-    padding: 25px;
+    margin: 30px;
+    padding: 30px;
     border-left: 3px solid blue;
     border-right: 3px solid blue;
     border-top: 3px solid blue;
@@ -76,4 +80,36 @@ h1 {
     justify-content: center;
     margin: 5px;
     padding: 7px;
+}
+
+.manga_list{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.manga{
+    width: 33%;
+    margin: 15px;
+    padding: 25px;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    transition: border 500ms;
+}
+
+.manga:hover{
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.manga_name:hover {
+    background-color: greenyellow;
+    opacity: 1;
+}
+
+.manga_name {
+    color: skyblue;
+    justify-content: center;
 }
